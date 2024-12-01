@@ -1,62 +1,70 @@
 # Codebase-Query-Chatbot
-Overview
-This Codebase Query Chatbot enables developers to interact with their codebase through an AI chatbot interface, providing answers based on the code's context. Built with a React.js frontend and a FastAPI backend, this project integrates Pinecone for fast vector search and uses Retrieval-Augmented Generation (RAG) powered by an LLM for enhanced query responses. It is optimized for embedding individual functions instead of entire files to improve accuracy.
+
+## Overview
+**Codebase Query Chatbot** enables developers to interact with their codebase through a chatbot interface, providing answers based on the code's context. Built with **React.js** for the frontend and **FastAPI** for the backend, this project integrates **Pinecone** for fast vector search and utilizes **Retrieval-Augmented Generation (RAG)** powered by a **Large Language Model (LLM)** for enhanced query responses. The system is optimized for embedding individual functions instead of entire files to improve accuracy.
 
 ---
 
-Key Features
-- Interactive Chatbot: Query your codebase via an intuitive React.js frontend.
-- FastAPI Backend: Handles user queries and integrates with Pinecone for fast and accurate search.
-- RAG (Retrieval-Augmented Generation): Combines search with generative models to return contextually relevant answers.
-- Function-Level Embeddings: Focus on embedding individual functions rather than entire files for more precise query results.
-- Scalable and Optimized: Built to handle large codebases and provide fast responses.
+## Key Features
+- **Interactive Chatbot**: Query your codebase via an intuitive React.js frontend.
+- **FastAPI Backend**: Handles user queries and integrates with Pinecone for fast and accurate search.
+- **Retrieval-Augmented Generation (RAG)**: Combines context retrieval and **LLM**-powered responses to deliver highly relevant answers.
+- **Function-Level Embeddings**: Focus on embedding individual functions rather than entire files for more precise and relevant query results.
+- **Scalable and Optimized**: Built to handle large codebases and provide fast responses.
 
 ---
 
-Technologies Used
-- Frontend: React.js, Axios, React Router
-- Backend: FastAPI, Uvicorn, Pinecone, Langchain, Pydantic, OpenAI, Sentence-Transformers
-- Development Tools: Git, Docker, Python 3.10, Node.js, npm
+## Technologies Used
+- **Frontend**: React.js, Axios, React Router
+- **Backend**: FastAPI, Uvicorn, Pinecone, Langchain, Pydantic, OpenAI, Sentence-Transformers
+- **Development Tools**: Git, Docker, Python 3.10, Node.js, npm
 
 ---
 
-Setup Instructions
+## Setup Instructions
 
-Backend Setup:
+### Backend Setup:
 1. Clone the repository:  
-     git clone https://github.com/yourusername/Codebase-Query-Chatbot.git
-  
-3. Navigate to the backend folder and set up a virtual environment:
-     cd Codebase-Query-Chatbot/backend
-     python3 -m venv venv
-     source venv/bin/activate  # or .\venv\Scripts\activate for Windows
-   
-5. Install dependencies:
-     pip install -r requirements.txt
-   
-7. Set up the `.env` file with your Pinecone and OpenAI API keys.
-   
-9. Run the FastAPI server:
-     uvicorn main:app --reload
+   ```bash
+   git clone https://github.com/yourusername/Codebase-Query-Chatbot.git
+   ```
+2. Navigate to the backend folder and set up a virtual environment:
+   ```bash
+   cd Codebase-Query-Chatbot/backend
+   python3 -m venv venv
+   source venv/bin/activate  # or .\venv\Scripts\activate for Windows
+   ```
+3. Install dependencies:
+   ```bash
+   pip install -r requirements.txt
+   ```
+4. Set up the `.env` file with your **Pinecone** and **OpenAI API keys**.
+5. Run the FastAPI server:
+   ```bash
+   uvicorn main:app --reload
+   ```
 
-Frontend Setup:
+### Frontend Setup:
 1. Navigate to the frontend folder:
-     cd Codebase-Query-Chatbot/chatbot-frontend
-   
-3. Install dependencies and start the React app:
-     npm install
-     npm start
+   ```bash
+   cd Codebase-Query-Chatbot/frontend
+   ```
+2. Install dependencies and start the React app:
+   ```bash
+   npm install
+   npm start
+   ```
 
 ---
 
-Usage
+## Usage
 1. Open the React app (typically at `http://localhost:3000`).
 2. Ask queries about your codebase, e.g., "What does `functionName()` do?" or "How is `functionX` used?"
-3. The chatbot responds with contextually relevant answers by querying the backend, which uses embeddings and Pinecone for efficient retrieval.
+3. The chatbot responds with contextually relevant answers by querying the backend, which uses embeddings and Pinecone for efficient retrieval, along with an **LLM** to generate natural language responses.
 
 ---
 
-Project Structure
+## Project Structure
 
 ```
 /Codebase-Query-Chatbot
