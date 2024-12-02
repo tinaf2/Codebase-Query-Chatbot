@@ -17,7 +17,7 @@
 ## Technologies Used
 - **Frontend**: React.js, JavaScript, Axios, React Router
 - **Backend**: FastAPI, Uvicorn, Pinecone, Langchain, Pydantic, Groq, Sentence-Transformers
-- **Development Tools**: Git, Docker, Python 3.10, Node.js, npm
+- **Development Tools**: Git, Python 3.10, Node.js
 
 ---
 
