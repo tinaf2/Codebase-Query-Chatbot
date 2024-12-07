@@ -1,7 +1,7 @@
 # Codebase-Query-Chatbot
 
 ## Overview
-**Codebase Query Chatbot** enables developers to interact with their codebase through a chatbot interface, providing answers based on the code's context. Built with **React.js** for the frontend and **FastAPI** for the backend, this project integrates **Pinecone** for fast vector search and utilizes **Retrieval-Augmented Generation (RAG)** powered by a **Large Language Model (LLM)** for enhanced query responses. The system is optimized for embedding individual functions instead of entire files to improve accuracy.
+**Codebase Query Chatbot** enables developers to interact with their codebase through a chatbot interface, providing answers and code suggestions based on the code's context. Built with **React.js** for the frontend and **FastAPI** for the backend, this project integrates **Pinecone** for fast vector search and utilizes **Retrieval-Augmented Generation (RAG)** powered by a **Large Language Model (LLM)** for enhanced query responses. The system is optimized for embedding individual functions instead of entire files to improve accuracy.
 
 ---
 
@@ -15,9 +15,9 @@
 ---
 
 ## Technologies Used
-- **Frontend**: React.js, JavaScript, Axios, React Router
-- **Backend**: FastAPI, Uvicorn, Pinecone, Langchain, Pydantic, OpenAI, Sentence-Transformers
-- **Development Tools**: Git, Docker, Python 3.10, Node.js, npm
+- **Frontend**: React.js, JavaScript, Axios, React
+- **Backend**: FastAPI, Python, Uvicorn, Pinecone, Langchain, Pydantic, Groq, Sentence-Transformers
+- **Development Tools**: Git, Python 3.10, Node.js
 
 ---
 
@@ -56,6 +56,7 @@
    ```
 
 ---
+## Example query and response:
 
-
-<img width="900" alt="Screenshot 2024-11-30 at 9 11 35 PM" src="https://github.com/user-attachments/assets/d66a8877-71a0-490a-b4a6-35cd9e6a85b0">
+<img width="1494" alt="Screenshot 2024-12-06 at 7 25 42 PM" src="https://github.com/user-attachments/assets/e580df47-5fa9-4fce-9919-1c3193774c67">
+<img width="1494" alt="Screenshot 2024-12-06 at 7 25 58 PM" src="https://github.com/user-attachments/assets/5a6568b8-3211-4a92-87bf-8bd544c7ead3">
