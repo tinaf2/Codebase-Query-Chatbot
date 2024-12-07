@@ -1,7 +1,7 @@
 # Codebase-Query-Chatbot
 
 ## Overview
-**Codebase Query Chatbot** enables developers to interact with their codebase through a chatbot interface, providing answers based on the code's context. Built with **React.js** for the frontend and **FastAPI** for the backend, this project integrates **Pinecone** for fast vector search and utilizes **Retrieval-Augmented Generation (RAG)** powered by a **Large Language Model (LLM)** for enhanced query responses. The system is optimized for embedding individual functions instead of entire files to improve accuracy.
+**Codebase Query Chatbot** enables developers to interact with their codebase through a chatbot interface, providing answers and code suggestions based on the code's context. Built with **React.js** for the frontend and **FastAPI** for the backend, this project integrates **Pinecone** for fast vector search and utilizes **Retrieval-Augmented Generation (RAG)** powered by a **Large Language Model (LLM)** for enhanced query responses. The system is optimized for embedding individual functions instead of entire files to improve accuracy.
 
 ---
 
@@ -15,8 +15,8 @@
 ---
 
 ## Technologies Used
-- **Frontend**: React.js, JavaScript, Axios, React Router
-- **Backend**: FastAPI, Uvicorn, Pinecone, Langchain, Pydantic, Groq, Sentence-Transformers
+- **Frontend**: React.js, JavaScript, Axios, React
+- **Backend**: FastAPI, Python, Uvicorn, Pinecone, Langchain, Pydantic, Groq, Sentence-Transformers
 - **Development Tools**: Git, Python 3.10, Node.js
 
 ---
