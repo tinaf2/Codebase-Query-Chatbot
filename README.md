@@ -57,5 +57,6 @@
 
 ---
 
-
-<img width="1506" alt="Screenshot 2024-12-06 at 6 56 59 PM" src="https://github.com/user-attachments/assets/0146bd27-4788-4bc1-b993-42ed1d84268d">
+Example query and response:
+<img width="1494" alt="Screenshot 2024-12-06 at 7 25 42 PM" src="https://github.com/user-attachments/assets/e580df47-5fa9-4fce-9919-1c3193774c67">
+<img width="1494" alt="Screenshot 2024-12-06 at 7 25 58 PM" src="https://github.com/user-attachments/assets/5a6568b8-3211-4a92-87bf-8bd544c7ead3">
