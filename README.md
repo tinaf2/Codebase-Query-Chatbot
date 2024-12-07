@@ -58,4 +58,4 @@
 ---
 
 
-<img width="900" alt="Screenshot 2024-11-30 at 9 11 35 PM" src="https://github.com/user-attachments/assets/d66a8877-71a0-490a-b4a6-35cd9e6a85b0">
+<img width="1506" alt="Screenshot 2024-12-06 at 6 56 59 PM" src="https://github.com/user-attachments/assets/0146bd27-4788-4bc1-b993-42ed1d84268d">
