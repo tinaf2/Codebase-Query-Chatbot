@@ -5,7 +5,7 @@ import "./App.css";
 function App() {
   return (
     <div className="app-container">
-      <h1>Codebase Query System</h1>
+      <h1>Codebase Query Chatbot</h1>
       <QueryForm />
     </div>
   );

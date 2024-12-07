@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import axios from "axios";
 import "./chatbot.css";
+import botIcon from "./images/bot-icon.png";
+import userIcon from "./images/user-icon.png";
 
 const QueryForm = () => {
   const [query, setQuery] = useState("");
@@ -44,12 +46,22 @@ const QueryForm = () => {
 
   return (
     <div className="chatbot-container">
-      <h1>Ask about the codebase</h1>
-
       <div className="chat-history">
         {messages.map((msg, idx) => (
           <div key={idx} className={`chat-bubble ${msg.sender}`}>
-            {msg.text}
+            {msg.sender === "bot" && (
+              <div
+                className="avatar"
+                style={{ backgroundImage: `url(${botIcon})` }}
+              ></div>
+            )}
+            {msg.sender === "user" && (
+              <div
+                className="avatar"
+                style={{ backgroundImage: `url(${userIcon})` }}
+              ></div>
+            )}
+            <div className="message-text">{msg.text}</div>
           </div>
         ))}
       </div>
